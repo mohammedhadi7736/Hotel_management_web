@@ -212,3 +212,5 @@ $('ov').addEventListener('click',e=>{if(e.target===$('ov'))closeOv()});
 function saveRc(){const t='LPU GUEST HOUSE - Booking Confirmation\n\n'+(window._rc||'');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:'text/plain'}));a.download='booking-confirmation.txt';document.body.appendChild(a);a.click();a.remove()}
 $('homeLink').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();goTo('')}});
 </script></body></html>
+
+
